@@ -53,14 +53,14 @@ body{
 
 .links{
     display:flex;
-    gap:20px;
-    font-size:25px;
+    gap:40px;
+    font-size:23px;
 }
 
 .links a{
       text-decoration:none;
    color:#222222;
-   font-weight:bold;
+   font-weight:600;
 }
 
 
@@ -78,13 +78,15 @@ body{
 .hero-content img{
     border-radius:10%;
     box-shadow: #40e0d077 5px 5px 20px, #40e0d077 -5px -5px 20px;
-   height:70vh;
- width:200%;
+   object-fit:cover;
+   height: 600px;
+   width:1300px;
 }
 
 .hero-text{
     color:white;
     font-size:1.3em;
+    max-width:600px;
 }
 
 .hero-text h1{
