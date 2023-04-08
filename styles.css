@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     margin:0;
    font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -253,13 +257,14 @@ font-weight:500
 .card a{
     border:turquoise 3px solid;
     border-radius:10px;
-    background-color:gray;
-    color:turquoise;
+    background-color:#555555;
+    color:white;
     padding:8px 6px;
     font-size:1.8em;
     font-weight:bold;
     text-decoration:none;
     text-align:center;
+box-shadow: #40e0d077 5px 5px 20px, #40e0d077 -5px -5px 20px;
 }
 
 
