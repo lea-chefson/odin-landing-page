@@ -1,5 +1,5 @@
 
-# odin-recipes
+# odin-landing-page
 
 A simple landing webpage made during the foundations course on the Odin Project using only html and css (not responsive).
 
