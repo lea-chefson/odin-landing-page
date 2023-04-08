@@ -69,6 +69,7 @@ body{
 
 .hero-content{
     display:flex;
+    height:100%;
     align-items:center;
     padding:80px;
     gap:80px;
@@ -79,24 +80,24 @@ body{
     border-radius:10%;
     box-shadow: #40e0d077 5px 5px 20px, #40e0d077 -5px -5px 20px;
    object-fit:cover;
-   height: 600px;
-   width:1300px;
+   flex:1.5;
+   height: 500px;
 }
 
 .hero-text{
     color:white;
     font-size:1.3em;
-    max-width:600px;
+    flex:1;
 }
 
 .hero-text h1{
     color:turquoise;
-font-size:3rem;
+font-size:2.5em;
 }
 
 .hero-text h1 span{
     color:yellow;
-    font-size:4rem;
+    font-size:1.2em;
     }
     
 
@@ -113,4 +114,166 @@ font-size:3rem;
     background-color:black;
     padding:10px 20px;
     box-shadow: #40e0d077 5px 5px 10px, #40e0d077 -5px -5px 10px;
+}
+
+
+
+/*products section*/
+
+.products-section{
+    background-color:yellow;
+    padding:50px 80px;
+}
+
+.products-section h2{
+    margin:0;
+    font-size: 2.5rem;
+    text-align:center;
+    padding:40px;
+    padding-bottom:80px;
+
+}
+
+.products-line{
+    display:flex;
+    margin:auto;
+    padding-bottom:80px;
+    max-width:1500px;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+}
+
+.product{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+    flex:1
+}
+
+.product img{
+    width:180px;
+    height:180px;
+  border-radius:10px;
+  box-shadow: #ff00ff77 5px 5px 10px, #ff00ff77 -5px -5px 10px;
+  
+}
+
+.product p{
+    padding: 0 10px
+}
+
+.product span{
+    font-weight:bolder;
+    font-size:1.1em;
+}
+
+
+
+
+
+/* introduction section*/
+
+.introduction-section{
+    background-image:url(https://i.ibb.co/5Yzm5jd/Faie-vaporwave-futuristic-grocery-store-aisles-high-detail-real-0b163721-6d41-48f1-9876-3e33b76b3a47.png);
+    background-size: cover;
+    background-position: bottom;
+    padding:150px 120px;
+}
+
+.intro-content{
+    color:white;
+    max-width:900px;
+    margin:auto;
+    padding: 50px 30px;
+    font-size:1.4em;
+    font-style:italic;
+    background: rgba(66, 65, 65, 0.7);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+box-shadow: #40e0d077 5px 5px 20px, #40e0d077 -5px -5px 20px;
+line-height: 30px; 
+font-weight:500
+}
+
+#author{
+    color:yellow;
+    font-style: normal;
+    font-size:0.8em;
+    font-weight:bold;
+    text-align:end
+}
+
+
+
+
+
+/*call-to-action section*/
+
+
+.cta-section{
+    background-color:yellow;
+    padding:80px;
+}
+
+.card{
+    background-color:#333333;
+  box-shadow: #ff00ff77 5px 5px 10px, #ff00ff77 -5px -5px 10px;
+  border-radius:10px;
+    max-width:1000px;
+    margin:auto;
+    padding:50px 100px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:30px;
+    color:white;
+}
+
+.card-text{
+    flex:1.5;
+}
+
+.card-text h3{
+    margin:0;
+    color:turquoise;
+    font-size:1.7em;
+}
+
+.card-cta{
+    flex: 1;
+    display:flex;
+    justify-content:center
+}
+
+.card a{
+    border:turquoise 3px solid;
+    border-radius:10px;
+    background-color:gray;
+    color:turquoise;
+    padding:8px 6px;
+    font-size:1.8em;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+}
+
+
+
+
+
+/*footer*/
+
+.footer{
+    background-color: #333333;
+    padding:20px 40px
+}
+
+.footer p{
+    color:white;
+    text-align:center;
 }
